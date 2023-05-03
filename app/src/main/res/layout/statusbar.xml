@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <com.example.ps_android_control_arneses.view.clases.FontAwesome
+        android:id="@+id/iconoStatus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/menu1_button_up"
+        android:textSize="14sp"
+        android:text="@string/exclamation_circle"
+        android:gravity="center"
+        android:textColor="@color/faltante"/>
+    <TextView
+        android:id="@+id/textoMsg"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@drawable/menu1_button_up"
+        android:text="@string/iniciando_lector_rfid"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:gravity="center"
+        android:ellipsize="end"/>
+</LinearLayout>

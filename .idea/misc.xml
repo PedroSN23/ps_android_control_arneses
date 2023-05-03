@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_spinner_menu2.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/ic_action_pass_dark.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_action_user.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_action_user_dark.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_spinner_down_menu1.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_spinner_left_menu1.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_spinner_right_menu1.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_spinner_up_menu1.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/rounded_edittext.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/rounded_edittext_menu1.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/rounded_edittext_menu3.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/rounded_edittext_menu4.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/spinner_dropdown_list_is_shown_menu2.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/spinner_off_menu2.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/spinner_pressed_menu2.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/thumb_gray.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/track_switch.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/transparent.xml" value="0.134" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_archivo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_completar.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_controls_layout.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_enviar.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_generic.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_generic_three.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_generic_two.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_impresion.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_lectura_puertas.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_server.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/activity_usuarios.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/cantidad_dialog.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/cell_lectura_paquetes.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/content_about.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/content_barcode.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/content_inventario.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/controls_fragment.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/dialog_archivos.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/dialog_autentificar_administrador.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dialog_editar.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/dialog_encabezados.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_filtro.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/dialog_sel_filtro.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/enviar_fragment_layout.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/generic_button.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/generic_filtro.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/generic_radiogoup.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/generic_textedit.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/impresion_fragment_layout.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/lecturas_fragment_layout.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/list_archivo_adapter.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/list_archivos_found_adapter.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/list_filtros_adapter.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/list_spinner.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/menu1_fragment.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu1_list_inventario.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/menu2_fragment.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu3_activity_bar_code.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu3_activity_grabar.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu3_fragment.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu4_activity_bar_code.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/menu4_fragment.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/menu4_list_lectura_bc.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/menu_activity_main.xml" value="0.3351851851851852" />
+        <entry key="app/src/main/res/layout/seek_bar_layout.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/simple_list_item.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/simple_list_item_bar.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/statusbar.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/layout/submenu_button.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">CONTROL DE ARNESES</string>
+
+    <string-array name="seriales">
+        <item>HC720A221100183</item>
+
+    </string-array>
+
+    <!--********************MENU PRINCIPAL*******************************-->
+    <string name="menu1">Inventario</string>
+    <string name="menu2">Registros</string>
+    <string name="menu3">Préstamos y Devolucionés</string>
+    <string name="menu4">Configuración</string>
+
+    <string name="statusInvHead">Status</string>
+
+    <string-array name="encabezados">
+        <item>@string/menu1s1slide1</item>
+        <item>@string/menu1s1slide2</item>
+    </string-array>
+
+    <string-array name="encabezadosSec">
+        <item>@string/menu1s1Cant</item>
+        <item>Estado</item>
+    </string-array>
+
+    <string name="empty">Empty</string>
+    <string name="zeroTxt">0</string>
+
+    <!--********************BOTONES*******************************-->
+    <string name="butReiniciar">REINICIAR</string>
+    <string name="butGuardar">GUARDAR</string>
+    <string name="butbaja">DAR DE BAJA</string>
+    <string name="butNuevo">NUEVO</string>
+    <string name="butInit">INICIAR</string>
+    <string name ="unitario">NUEVA UNIDAD</string>
+    <string name ="archivo_excel">EXPORT</string>
+    <string name="butFin">FINALIZAR</string>
+    <string name="butClean">LIMPIAR</string>
+    <string name="butConnect">CONECTAR</string>
+    <string name="butClose">CERRAR</string>
+    <string name="butCont">CONTINUAR</string>
+    <string name="butCancel">CANCELAR</string>
+    <string name="butCambiar">CAMBIAR</string>
+    <string name="butOk">SELECCIONAR</string>
+    <string name="butSalir">SALIR</string>
+    <string name="butBorrar">BORRAR</string>
+    <string name="butProbar">PROBAR</string>
+    <string name="butDet1">REQUEST</string>
+    <string name="butDet2">RESPONSE</string>
+    <string name="butFinalizar">FINALIZAR</string>
+    <string name="butBuscar">BUSCAR LP</string>
+    <string name="butBuscarEpc">BUSCAR</string>
+    <string name="butValidar">VALIDAR</string>
+
+    <!--********************DIALOGO AUTENTIFIACION USUARIO*******************************-->
+    <string name="loginMsg">Autentificación Usuario</string>
+
+    <string name="userTxt">Usuario:</string>
+    <string name="tipUser">usuario</string>
+    <string name="passwd">Contraseña:</string>
+    <string name="tipPswd">contraseña</string>
+
+    <!--********************DIALOGO POTENCIA*******************************-->
+    <string name="potTit">Potencia</string>
+    <string name="potMsg">Establezca la potencia de Lectura</string>
+
+    <!--********************ERRRORES*******************************-->
+    <string name="errThread">Error al iniciar Thread</string>
+    <string name="errInitBC">Error al iniciar Código de Barras</string>
+    <string name="errPswLen">La contraseña debe ser al menos de 5 caracteres </string>
+    <string name="errUsrDup">Usuarios duplicados</string>
+    <string name="errUsrRes">Usuario root reservado</string>
+    <string name="errBDdat">No se pueden obtener datos de la Base de Datos</string>
+    <string name="errArchTerm">El archivo de salida debe tener la terminación .xlsx</string>
+    <string name="errNoColumn">No se encontró la columna </string>
+    <string name="errIdDup">Id duplicado </string>
+    <string name="errFileNF">No se encontró el archivo</string>
+    <string name="errReadInpS">Error al leer archivo</string>
+    <string name="errPermisos">No se tienen los permisos</string>
+
+    <string name="errRfidFreq">Error al establecer frecuencia del lector</string>
+    <string name="errRfidInit">Error al iniciar lector RFID</string>
+    <string name="errRfidNotInit">El lector UHF no está inicializado</string>
+    <string name="errRfidInv">Error al iniciar inventario de tags</string>
+    <string name="errRfidNoTag">No hay tags cerca de la antena</string>
+    <string name="errRfidTagSize">La memoria del tag no es compatible</string>
+
+    <string name="errResp">Error de estructura de mensaje de respuesta del servidor</string>
+    <string name="errResp2">Error de status del servidor, no es un entero</string>
+    <string name="errResp3">Error de status, no es un valor esperado</string>
+
+    <string name="errEspLect">La cantidad de pares máxima es excedida por la cantidad de pares leídos</string>
+
+    <string name="errLecEmpt">No se encontró información de lectura para enviar</string>
+    <string name="errNoTrans">Número de transferencia vacío</string>
+
+    <string name="errSaveServer">No se encontraron cambios</string>
+    <string name="okSaveServer">Cambios guardados</string>
+
+    <string name="errEmtpyForm">Campos en formulario vacíos</string>
+    <string name="errIdErr">Erro de id</string>
+
+    <string name="errCurrUsr">No se puede borrar al usuario activo</string>
+
+    <string name="msgBoxOk">Recepción correcta</string>
+    <string name="errBoxNOK">Recepción incompleta</string>
+    <string name="errBoxZero">No se ha realizado una lectura</string>
+
+    <string name="advBackPrs">Si continúa, no se guardará el progreso del armado de la caja</string>
+    <string name="advDelUsr">Si continúa, se borrará al usuario</string>
+
+    <string name="pregGuardar">¿Desea guardar los cambios del formulario?</string>
+
+    <string name="msgGuardado">Datos guardados</string>
+
+    <string name="msgPortOR">Puerto fuera de rango</string>
+
+
+    <!--********************MENU 1 FRAGMENT*******************************-->
+    <string name="menu1s1">Armado de Cajas</string>
+    <string name="menu1s2">Conteo CEDIS</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="ordenar">ORDENAR</string>
+
+    <!--********************MENU 1 SUBMENU 1*******************************-->
+    <string name="menu1s1Tit">ARMADO DE CAJAS</string>
+    <string name="menu1s1slide1">SKU</string>
+    <string name="menu1s1slide2">EPC</string>
+    <string name="menu1s1maxPair">Max Pair:</string>
+    <string name="menu1s1Leidos">Leídos:</string>
+    <string name="menu1s1promptCampEmpty">El cuadro de texto se encuentra vacío</string>
+    <string name="menu1s1promptErrFormato">Error de formato de código de barras</string>
+    <string name="menu1s1promptInst">Escanee el código de barras LP</string>
+    <string name="menu1s1ContId">ContId:</string>
+    <string name="menu1s1Cant">Cant.</string>
+    <string name="epc">EPC</string>
+    <string name="rssi">Rssi</string>
+    <string name="cant">Cant.</string>
+    <string name="conectando">Conectando</string>
+
+    <!--********************MENU 1 SUBMENU 2*******************************-->
+    <string name="menu1s2Tit">CONTEO CEDIS</string>
+    <string name="menu2s3Tit">CONTEO TIENDA</string>
+
+    <!--********************MENU 2 FRAGMENT*******************************-->
+    <string name="menu2s1">Recepción Tienda</string>
+    <string name="menu2s2">Validar Trasnferencia</string>
+    <string name="menu2s3">Conteo Tienda</string>
+
+    <!--********************MENU 2 SUBMENU 1*******************************-->
+    <string name="menu2s1Tit">RECEPCIÓN TIENDA</string>
+    <string name="menu2s1madres">Madres:</string>
+    <string name="menu2s1noTrasns">Num. Trasnferencia</string>
+    <string name="menu2s1group">AGRUPADO</string>
+    <string name="menu2s1Moth">Madre</string>
+    <string name="menu2s1Esp">Esp.</string>
+    <string name="menu2s1Lec">Lec.</string>
+    <string name="menu2s1Epc">EPC</string>
+    <string name="menu2s1Sta">Estado</string>
+    <string name="skutxt">SKU</string>
+    <string name="modelotxt">Modelo</string>
+    <string name="colortxt">Color</string>
+    <string name="tallatxt">Talla</string>
+    <string name="descripciontxt">Descripción</string>
+    <string name="serialtxt">Serial</string>
+    <string name="content_delete">Eliminar</string>
+    <string name="imprimircatalogo">Imprimir</string>
+    <string name="button_menos_print">-</string>
+    <string name="button_mas_print">+</string>
+    <!--********************MENU 2 SUBMENU 2*******************************-->
+    <string name="registrar">Registrar Producto</string>
+    <string name="selecionar">Subir Archivo</string>
+    <string name="skumenu">SKU:</string>
+    <string name="modelomenu">Modelo:</string>
+    <string name="colormenu">Color:</string>
+    <string name="tallamenu">Talla:</string>
+    <string name="descripcionmenu">Descripción:</string>
+
+
+    <!--********************MENU 3 FRAGMENT*******************************-->
+    <string name="menu3s1">RFID</string>
+    <string name="menu3s2">Código de Barras</string>
+    <string name="menu3s3">Validar TID</string>
+
+    <!--********************MENU 3 SUBMENU 1*******************************-->
+    <string name="menu3s1Tit">HERRAMIENTAS RFID</string>
+    <string name="menu3s1Count">Cant.</string>
+    <string name="prestar">PRESTAR</string>
+    <string name="devolucion">DEVOLVER</string>
+
+    <!--********************MENU 3 SUBMENU 2*******************************-->
+    <string name="menu3s2Tit">CÓDIGO DE BARRAS</string>
+    <string name="menu3s2TitTabla">Código:</string>
+
+    <!--********************MENU 4 FRAGMENT*******************************-->
+    <string name="menu4s1">Usuarios</string>
+    <string name="menu4s2">Servidor</string>
+    <string name="menu4s3">Acerca</string>
+
+    <!--********************MENU 4 SUBMENU 1*******************************-->
+    <string name="menu4s1Tit">USUARIOS</string>
+    <string name="menu4s1Dialtv1">Usuario:</string>
+    <string name="menu4s1Dialet1h">usuario</string>
+    <string name="menu4s1Dialtv2">Contraseña:</string>
+    <string name="menu4s1Dialet2h">contraseña</string>
+    <string name="menu4s1Dialtv3">Nombre:</string>
+    <string name="menu4s1Dialet3h">nombre</string>
+    <string name="menu4s1Dialtv4">Permisos:</string>
+    <string name="menu4s1Dialsw1">@string/menu1s1</string>
+    <string name="menu4s1Dialsw2">@string/menu1s2</string>
+    <string name="menu4s1Dialsw3">@string/menu3s3</string>
+    <string name="menu4s1Dialsw4">@string/menu2s1</string>
+    <string name="menu4s1Dialsw5">@string/menu2s2</string>
+    <string name="menu4s1Dialsw6">@string/menu4s1</string>
+    <string name="menu4s1Dialsw7">@string/menu4s2</string>
+    <string name="menu4s1DialEditTit">Editar Usuario</string>
+    <string name="menu4s1DialNewTit">Nuevo Usuario</string>
+    <string name="menu4s1DialEditBut1Txt">@string/butGuardar</string>
+    <string name="menu4s1DialEditBut2Txt">@string/butBorrar</string>
+    <string name="menu4s1DialNewBut1Txt">@string/butGuardar</string>
+    <string name="menu4s1DialNewBut2Txt">@string/butCancel</string>
+    <string name="menu4s1DialEditBut1Icon">@string/save</string>
+    <string name="menu4s1DialEditBut2Icon">@string/trash</string>
+    <string name="menu4s1DialNewBut1Icon">@string/save</string>
+    <string name="menu4s1DialNewBut2Icon">@string/times</string>
+    <string name="menu4s1DialRespOk">@string/msgGuardado</string>
+    <string name="menu4s1DialRespDup">@string/errUsrDup</string>
+    <string name="menu4s1DialRespEmpty">@string/errEmtpyForm</string>
+    <string name="menu4s1DialPswdLen">@string/errPswLen</string>
+    <string name="menu4s1DialRespIdErr">@string/errIdErr</string>
+    <string name="menu4s1DialRespCurrUsrErr">@string/errCurrUsr</string>
+    <string name="menu4s1DialEditDelAdv">@string/advDelUsr</string>
+    <string name="menu4s1DialRespOkUsr">Usuario Actualizado</string>
+    <string name="menu4s1DialRespOkNom">Nombre Actualizado</string>
+    <string name="menu4s1DialRespOkPsw">Contraseña Actualizada</string>
+    <string name="menu4s1DialRespOkPerm">Permisos Actualizados</string>
+
+    <!--*********************MENU 4 SUBMENU 2*******************************-->
+    <string name="menu4s2Host">Host:</string>
+    <string name="menu4s2Port">Puerto:</string>
+    <string name="menu4s2HostHint">host</string>
+    <string name="menu4s2PortHint">puerto</string>
+    <string name="menu4s2Login">Usuario:</string>
+    <string name="menu4s2LoginHint">usuario</string>
+    <string name="menu4s2Pass">Contraseña:</string>
+    <string name="menu4s2PassHint">contraseña</string>
+    <string name="menu4s2Servicio">Servicio:</string>
+    <string name="menu4s2Tipo">Tipo:</string>
+    <string name="menu4s2Get">GET</string>
+    <string name="menu4s2Post">POST</string>
+    <string name="menu2s2NoTrans">No. Trans:</string>
+    <string name="menu2s2TransDif">No Trasnferencia Diferente</string>
+    <string name="menu2s2preg1">¿Desea reemplazar el No de Trasnferencia</string>
+    <string name="butReemplazar">REEMPLAZAR</string>
+    <string name="menu3s1Arneses">ARNESES</string>
+    <string name="menu3s1Epc">EPC</string>
+    <string name="menu3s1Rssi">RSSI</string>
+    <string name="menu1s2promptInst">Escanee el código de barras del diario de conteo</string>
+    <string name="butSiguiente">SIGUIENTE</string>
+    <string name="menu1s2diarioConteo">Diario de Conteo:</string>
+    <string name="menu1s2Localidad">Localidad:</string>
+    <string name="menu1s2promptInst2">Escanee el código de barras de la localidad</string>
+    <string name="butRegresar">REGRESAR</string>
+    <string name="na">-NA-</string>
+    <string name="menu3s3Cant">Cant.</string>
+    <string name="menu3s3Status">Status</string>
+    <string name="menu3s3Tit">VALIDAR TID</string>
+    <string name="menu3s4">Buscar EPC</string>
+    <string name="menu4s1Dialsw8">Buscar EPC</string>
+    <string name="menu3s4Tit">Buscar EPC</string>
+    <string name="menu3s4Imagen">Imagen Ondas</string>
+    <string name="emptyTxt">Algo</string>
+    <string name="menu3s4ActBusc">Epc a buscar:</string>
+    <string name="menu3s4DiagTit">EPC a buscar</string>
+    <string name="iniciando_lector_rfid">Iniciando dispositivo</string>
+    <string name="init_fail">RFID UHF init failed</string>
+    <string name="uhf_disconnected">UHF desconectado</string>
+    <string name="init_success">UHF conectado</string>
+    <string name="butEnviar">ENVIAR</string>
+    <string name="administrador">Administrador</string>
+    <string name="usuario">Usuario:</string>
+    <string name="usuario_hint">Usuario</string>
+    <string name="pasword">Contraseña:</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="autentificarUsuario">Autentificar Usuario</string>
+    <string name="total">TOTAL:</string>
+    <string name="zero">0</string>
+    <string name="upc">UPC</string>
+    <string name="nal">NAL</string>
+    <string name="upc_dummy">7240205477266</string>
+    <string name="imp">IMP</string>
+    <string name="modelo">MODELO</string>
+    <string name="modelo_dummy">M0001</string>
+    <string name="menu4s1Adm1">ADMINISTRADOR</string>
+    <string name="menu4s1Adm2">Usuario:</string>
+    <string name="menu4s1Adm3">usuario administrador</string>
+    <string name="menu4s1Adm4">Contraseña:</string>
+    <string name="menu4s1Adm5">contraseña administrador</string>
+    <string name="menu4s1Usr1">OPERADOR</string>
+    <string name="menu4s1Usr21">SUPERVISOR</string>
+    <string name="menu4s1Usr2">Usuario:</string>
+    <string name="menu4s1Usr3">usuario</string>
+    <string name="menu4s1Usr4">Contraseña:</string>
+    <string name="menu4s1Usr5">contraseña usuario</string>
+    <string name="imagen_astlix">Imagen Astlix</string>
+    <string name="telefono_astlix">(55)1107 6245</string>
+    <string name="paginaweb">https://www.astlix.com</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="url">URL</string>
+    <string name="https">HTTPS</string>
+    <string name="ip">IP</string>
+    <string name="puerto">Puerto</string>
+    <string name="estatus">ESTADO</string>
+    <string name="talla">TALLA</string>
+    <string name="logo_astlix">Astlix SA de CV</string>
+    <string name="butCancelar">CANCELAR</string>
+    <string name="butEntrar">ENTRAR</string>
+    <string name="vin_hint">VIN</string>
+    <string name="epc_hint">EPC</string>
+    <string name="errRfidTagWrite">Error al grabar tag</string>
+    <string name="ip_tablet">IP Servidor</string>
+    <string name="port_tablet">Base de datos</string>
+    <string name="talla_dummy">Mediana</string>
+    <string name="color">COLOR</string>
+    <string name="color_dummy">Morado</string>
+    <string name="mail_astlix">soporte@astlix.com</string>
+    <string name="butChange">CAMBIAR</string>
+    <string name="archivo_entrada">archivo entrada</string>
+    <string name="encabezados">Encabezados</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="butSelec">SELECCINAR</string>
+    <string name="operador">Operador</string>
+    <string name="butAgregar">AGREGAR</string>
+    <string name="advEraseFilt">Si continúa, se borrará el filtro</string>
+    <string name="filtro_hint">Filtro</string>
+    <string name="filt_inst">Agregue un nuevo filtro</string>
+    <string name="archivo_salida">archivo salida</string>
+    <string name="errNoPk">No se encontró llave primaria</string>
+    <string name="errNoEnc">No se encontraron encabezados para mostrar</string>
+    <string name="errNoFilt">No se encontraron filtros</string>
+    <string name="errProCan">Proceso cancelado</string>
+    <string name="errLinRep">Se encontraron</string>
+    <string name="errLinRep2">lineas repetidas</string>
+    <string name="errLinEnc">lineas con encabezado erróneo</string>
+    <string name="menu1s1GuardarInv">Está a punto de guardar el avance del inventario</string>
+    <string name="menu1s1NoCambios">NO HAY CAMBIOS</string>
+    <string name="advCleanPrs">Si continúna, se borrará el progreso del inventario</string>
+    <string name="sel_filtro">Seleccionar filtro</string>
+    <string name="errFiltEmpty">Filtro vacío</string>
+    <string name="errInvVacio">Inventario vacío</string>
+    <string name="errConfEmpty">No hay configuración</string>
+
+    <!--*******************MENU 4 SUBMENU 2*******************-->
+    <string name="menu4s2Tit">IMPRESORA</string>
+    <string name="menu4s2tvIP">IP:</string>
+    <string name="menu4s2etIP">Ingrese la dirección IP</string>
+    <string name="menu4s2etUser">Ingrese el puerto</string>
+    <string name="menu4s2tvUser">Puerto:</string>
+    <string name="menu4s2EditParam">Editar Parámetros</string>
+    <string name="menu4s2SaveParam">Guardar Parámetros</string>
+    <string name="menu4s2probarConex">Probar Conexión</string>
+    <string name="menu4s2CalibrarPapel">Calibrar Papel</string>
+    <string name="menu4s2calibrarRfid">Calibrar RFID</string>
+    <string name="menu4s2calibrarRfidDlg">Calibrar RFID Manual</string>
+    <string name="menu4s2presionarSalvar">Guardar Parametros</string>
+    <string name="menu4s2conectarImpresora">Probar Conexión</string>
+    <string name="menu4s2ping">Enviando Ping</string>
+    <string name="menu4s2conectando">Conectando</string>
+    <string name="menu4s2ok">OK</string>
+    <string name="menu4s2imprimiendo">Imprimiendo</string>
+    <string name="menu4s2calibrando">Calibrando</string>
+</resources>

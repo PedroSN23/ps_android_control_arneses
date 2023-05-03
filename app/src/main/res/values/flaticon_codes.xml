@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flaticon_rfid">&#xf101;</string>
+    <string name="flaticon_barcode">&#xf102;</string>
+    <string name="flaticon_warehouse">&#xf103;</string>
+    <string name="flaticon_log_in">&#xf104;</string>
+    <string name="flaticon_log_out">&#xf105;</string>
+    <string name="flaticon_support">&#xf106;</string>
+    <string name="flaticon_gear">&#xf107;</string>
+    <string name="flaticon_document">&#xf108;</string>
+    <string name="flaticon_configuration">&#xf109;</string>
+    <string name="flaticon_cloud_server">&#xf10a;</string>
+    <string name="flaticon_server">&#xf10b;</string>
+    <string name="flaticon_info">&#xf10c;</string>
+    <string name="flaticon_bike">&#xf10d;</string>
+    <string name="flaticon_cross">&#xf10e;</string>
+    <string name="flaticon_warning">&#xf10f;</string>
+    <string name="flaticon_checked">&#xf110;</string>
+</resources>

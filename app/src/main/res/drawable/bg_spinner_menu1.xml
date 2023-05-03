@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- disabled state -->
+    <item android:state_enabled="false" android:drawable="@drawable/spinner_pressed_menu1"/>
+    <!-- pressed state -->
+    <item android:state_enabled="true" android:state_window_focused="true" android:state_pressed="true" android:drawable="@drawable/spinner_pressed_menu1"/>
+    <!-- unselected state -->
+    <item android:state_enabled="true" android:state_window_focused="true" android:drawable="@drawable/spinner_off_menu1"/>
+    <!-- dropdown list state -->
+    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/spinner_dropdown_list_is_shown_menu1"/>
+    <!-- default -->
+    <!--item android:drawable="@drawable/spinner_default"/-->
+</selector>
